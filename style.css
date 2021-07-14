@@ -37,6 +37,7 @@ a {
 /* Top Section styles start here */
 #top-section {
     background: #2D25A0;
+    padding-bottom: 70px;
 }
 
 .header {
@@ -532,12 +533,17 @@ iframe {
         font-weight: 400;
         font-size: 14px;
     }
+    #top-section {
+        padding-bottom: 30px;
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
+    #top-section {
+        padding-bottom: 15px;
+    }
     .navigation {
         display: flex;
         flex-direction: column;
@@ -569,7 +575,7 @@ iframe {
         width: 100%;
     }
     .nav-menu ul li a {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 20px;
         border-bottom: 1px solid #ea4c89;
     }
