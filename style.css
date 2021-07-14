@@ -502,8 +502,7 @@ iframe {
     }
 
     .header {
-        padding: 40px 0 20px;
-        padding-bottom: 0;
+        padding: 10px 0;
     }
 
     .inner-player {
@@ -563,6 +562,10 @@ iframe {
         padding-bottom: 15px;
         height: auto;
     }
+    .header {
+        position: static; 
+    }
+    
 
     .navigation {
         display: flex;
@@ -646,6 +649,7 @@ iframe {
     .inner-banner {
         display: grid;
         grid-template-columns: 1fr;
+        padding-top: 17px;
     }
 
     .huge-title h1 {
@@ -664,6 +668,9 @@ iframe {
 
     footer p {
         font-size: 15px;
+    }
+    section{
+        padding: 50px 0 !important;
     }
 }
 
