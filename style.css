@@ -38,6 +38,7 @@ a {
 #top-section {
     background: #2D25A0;
     padding-bottom: 70px;
+    height: 100vh;
 }
 
 .header {
@@ -254,14 +255,16 @@ footer {
     text-align: center;
 }
 
-.logo1,.logo  {
+.logo1,
+.logo {
     margin: 0 auto;
     max-width: 480px;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.logo1 img ,.logo img{
+.logo1 img,
+.logo img {
     width: 100%;
 }
 
@@ -486,10 +489,12 @@ iframe {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+
     .header {
         padding: 40px 0 20px;
         padding-bottom: 0;
     }
+
     .inner-player {
         display: grid;
         gap: 30px;
@@ -533,8 +538,10 @@ iframe {
         font-weight: 400;
         font-size: 14px;
     }
+
     #top-section {
         padding-bottom: 30px;
+        height: auto;
     }
 }
 
@@ -543,7 +550,9 @@ iframe {
 @media only screen and (max-width: 600px) {
     #top-section {
         padding-bottom: 15px;
+        height: auto;
     }
+
     .navigation {
         display: flex;
         flex-direction: column;
@@ -554,7 +563,7 @@ iframe {
         display: block;
         width: 180px;
         margin: 0;
-        
+
     }
 
     .nav-menu ul {
@@ -571,9 +580,11 @@ iframe {
         margin-bottom: 5px;
 
     }
+
     .half-width {
         width: 100%;
     }
+
     .nav-menu ul li a {
         font-size: 20px;
         line-height: 20px;
@@ -639,6 +650,7 @@ iframe {
     .container.inner-banner {
         text-align: center;
     }
+
     footer p {
         font-size: 15px;
     }
