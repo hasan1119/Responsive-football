@@ -49,9 +49,13 @@ a {
     align-items: center;
 }
 
+.logo1 {
+    display: none;
+}
+
 .nav-menu ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
@@ -249,14 +253,14 @@ footer {
     text-align: center;
 }
 
-.logo {
+.logo1,.logo  {
     margin: 0 auto;
     max-width: 480px;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.logo img {
+.logo1 img ,.logo img{
     width: 100%;
 }
 
@@ -312,11 +316,11 @@ footer {
 }
 
 .social-links ul li:nth-child(1) i {
-    transform: translateY(-50%) translateX(-90%);
+    transform: translateY(-50%) translateX(-93%);
 }
 
 .social-links ul li:nth-child(4) i {
-    transform: translateY(-50%) translateX(-80%);
+    transform: translateY(-50%) translateX(-83%);
 }
 
 footer p {
@@ -458,23 +462,6 @@ iframe {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .nav-menu ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .nav-menu ul li {
-        width: 100%;
-        text-align: left;
-        padding-left: 20px;
-
-    }
-
-    .nav-menu ul li a {
-        font-size: 12px;
-        line-height: 20px;
-    }
 
     .login {
         font-size: 13px;
@@ -491,14 +478,17 @@ iframe {
     .navigation {
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .inner-highlights {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .header {
+        padding: 40px 0 20px;
+        padding-bottom: 0;
+    }
     .inner-player {
         display: grid;
         gap: 30px;
@@ -533,11 +523,57 @@ iframe {
     .container.inner-banner {
         text-align: center;
     }
+
+    .nav-menu ul li {
+        margin-right: 15px;
+    }
+
+    .nav-menu ul li a {
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo1 {
+        display: block;
+        width: 180px;
+        margin: 0;
+        
+    }
+
+    .nav-menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .nav-menu ul li {
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+        margin-bottom: 5px;
+
+    }
+    .half-width {
+        width: 100%;
+    }
+    .nav-menu ul li a {
+        font-size: 16px;
+        line-height: 20px;
+        border-bottom: 1px solid #ea4c89;
+    }
+
     .inner-player {
         display: grid;
         gap: 30px;
@@ -596,6 +632,9 @@ iframe {
 
     .container.inner-banner {
         text-align: center;
+    }
+    footer p {
+        font-size: 15px;
     }
 }
 
