@@ -7,9 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -40,7 +42,8 @@ a {
 #top-section {
     background: #2D25A0;
     padding-bottom: 100px;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 10px;
 }
 
 .header {
@@ -48,9 +51,9 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-     background: #2D25A0;
-     width: 100%;
-     z-index: 100;
+    background: #2D25A0;
+    width: 100%;
+    z-index: 100;
 
 }
 
@@ -115,9 +118,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.co
-
-.half-width {
+.co .half-width {
     width: 90%;
 }
 
@@ -131,6 +132,7 @@ a {
     line-height: 80px;
     color: #FFFFFF;
     margin-bottom: 27px;
+    max-width: 503px;
 }
 
 .huge-banner img {
@@ -448,233 +450,3 @@ iframe {
 
 /* Latest News Section styles end here */
 
-
-/* Responsive Style Starts here  */
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-    .highlight-match {
-        margin-bottom: 50px;
-    }
-
-    .highlight-match h2 {
-        font-size: 25px;
-        line-height: 29px;
-        margin-bottom: 20px;
-    }
-
-    .highlight-match {
-        padding-right: 15px;
-    }
-
-    .huge-title h1 {
-        font-size: 45px;
-        line-height: 60px;
-        margin-bottom: 27px;
-    }
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-
-    .login {
-        font-size: 13px;
-        line-height: 20px;
-        padding: 4px 10px;
-    }
-
-    .watch-btn {
-        font-size: 13px;
-        line-height: 20px;
-        padding: 4px 10px;
-    }
-
-    .navigation {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .inner-highlights {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .header {
-        padding: 10px 0;
-    }
-
-    .inner-player {
-        display: grid;
-        gap: 30px;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .inner-feature {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-
-    .inner-latestNews {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-
-
-    }
-
-    .huge-title h1 {
-        font-size: 34px;
-        line-height: 47px;
-        margin-bottom: 27px;
-    }
-
-    .half-width.huge-banner {
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-
-    .container.inner-banner {
-        text-align: center;
-    }
-
-    .nav-menu ul li {
-        margin-right: 15px;
-    }
-
-    .nav-menu ul li a {
-        font-weight: 400;
-        font-size: 14px;
-    }
-
-    #top-section {
-        padding-bottom: 30px;
-        height: auto;
-    }
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-    #top-section {
-        padding-bottom: 15px;
-        height: auto;
-    }
-    .header {
-        position: static; 
-    }
-    
-
-    .navigation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo1 {
-        display: block;
-        width: 180px;
-        margin: 0;
-
-    }
-
-    .nav-menu ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin-bottom: 20px;
-    }
-
-    .nav-menu ul li {
-        width: 100%;
-        text-align: center;
-        padding-left: 20px;
-        margin-bottom: 5px;
-
-    }
-
-    .half-width {
-        width: 100%;
-    }
-
-    .nav-menu ul li a {
-        font-size: 20px;
-        line-height: 20px;
-        border-bottom: 1px solid #ea4c89;
-    }
-
-    .inner-player {
-        display: grid;
-        gap: 30px;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .inner-feature {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-    }
-
-    .inner-latestNews {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-
-    }
-
-    .player h2 {
-        margin-bottom: 10px;
-        font-size: 25px;
-        line-height: 25px;
-    }
-
-    .highlight-match h2 {
-
-        font-size: 25px;
-        line-height: 29px;
-        margin-bottom: 20px;
-    }
-
-    .highlight-match {
-        padding-right: 15px;
-    }
-
-    .section-title {
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
-
-    .inner-banner {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding-top: 17px;
-    }
-
-    .huge-title h1 {
-        font-size: 31px;
-        line-height: 40px;
-    }
-
-    .half-width.huge-banner {
-        padding-bottom: 50px;
-        padding-top: 20px;
-    }
-
-    .container.inner-banner {
-        text-align: center;
-    }
-
-    footer p {
-        font-size: 15px;
-    }
-    section{
-        padding: 50px 0 !important;
-    }
-}
-
-
-
-
-/* Responsive Style ends here  */
