@@ -1,0 +1,28 @@
+/* common styles start here */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Niconne', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* common styles end here */
+
+/* Top Section styles start here */
+
+/* Top Section styles end here */
