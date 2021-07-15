@@ -38,7 +38,10 @@ a {
 
 /* common styles end here */
 
+
+
 /* Top Section styles start here */
+
 #top-section {
     background: #2D25A0;
     padding-bottom: 100px;
@@ -97,7 +100,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    padding: 6px 24px;
+    padding: 4px 15px;
     color: #FFFFFF;
     transition: background-color .3s;
 }
@@ -118,7 +121,7 @@ a {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.co .half-width {
+.half-width {
     width: 90%;
 }
 
@@ -146,7 +149,7 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    padding: 8px 24px;
+    padding: 5px 15px;
     color: #FFFFFF;
     transition: background-color .3s;
 }
@@ -164,7 +167,9 @@ a {
 /* Top Section styles end here */
 
 
+
 /* Players Section styles start here */
+
 #players {
     background: #fff;
     padding: 100px 0;
@@ -189,7 +194,6 @@ a {
 }
 
 .player-image img {
-
     transition: 0.3s;
     width: 100%;
 }
@@ -216,7 +220,10 @@ a {
 
 /* players Section styles end here */
 
+
+
 /* highlights Section styles start here */
+
 #highlights {
     padding: 100px 0;
     background: #FFFFFF;
@@ -235,7 +242,6 @@ a {
 
 .highlight-banner img {
     width: 100%;
-
 }
 
 .highlight-match {
@@ -262,92 +268,9 @@ a {
 /* highlights Section styles end here */
 
 
-/* Footer Section styles end here */
-footer {
-    padding: 60px 0;
-    text-align: center;
-}
-
-.logo1,
-.logo {
-    margin: 0 auto;
-    max-width: 480px;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.logo1 img,
-.logo img {
-    width: 100%;
-}
-
-.social-links {
-    margin-bottom: 20px;
-}
-
-.social-links ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-links ul li {
-    margin: 0 7px;
-    padding: 10px;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    position: relative;
-    transition: .3s;
-    background-color: #ddd;
-
-}
-
-.social-links ul li:nth-child(1):hover i {
-    color: #3f729b;
-}
-
-.social-links ul li:nth-child(2):hover i {
-    color: #ea4c89;
-}
-
-.social-links ul li:nth-child(3):hover i {
-    color: #00acee;
-}
-
-.social-links ul li:nth-child(4):hover i {
-    color: #FF0000;
-}
-
-.social-links ul li a i {
-    font-size: 18px;
-    margin: 0 7px;
-    color: #969BAB;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transition: all .3s;
-    transform: translateY(-50%) translateX(-87%);
-
-
-}
-
-.social-links ul li:nth-child(1) i {
-    transform: translateY(-50%) translateX(-93%);
-}
-
-.social-links ul li:nth-child(4) i {
-    transform: translateY(-50%) translateX(-83%);
-}
-
-footer p {
-    font-size: 18px;
-    line-height: 24px;
-}
-
-/* Footer Section styles end here */
 
 /* Feature videos Section styles starts here */
+
 #feature-videos {
     padding: 100px 0;
 }
@@ -362,7 +285,6 @@ footer p {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding: 15px;
     padding-bottom: 30px;
-
 }
 
 iframe {
@@ -372,7 +294,9 @@ iframe {
 
 /* Feature videos Section styles end here */
 
+
 /* Latest News Section styles start here */
+
 #latest-news {
     padding: 100px 0;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -428,7 +352,6 @@ iframe {
 
 .news-desc p a {
     color: #ea4c89;
-    /* background-color: rgba(0, 0, 0, 0.659); */
     display: inline-block;
     border-radius: 2px;
     font-size: 15px;
@@ -450,3 +373,87 @@ iframe {
 
 /* Latest News Section styles end here */
 
+
+
+/* Footer Section styles end here */
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.logo1,
+.logo {
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo1 img,
+.logo img {
+    width: 100%;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links ul li {
+    margin: 0 7px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    transition: .3s;
+    background-color: #ddd;
+}
+
+.social-links ul li:nth-child(1):hover i {
+    color: #3f729b;
+}
+
+.social-links ul li:nth-child(2):hover i {
+    color: #ea4c89;
+}
+
+.social-links ul li:nth-child(3):hover i {
+    color: #00acee;
+}
+
+.social-links ul li:nth-child(4):hover i {
+    color: #FF0000;
+}
+
+.social-links ul li a i {
+    font-size: 18px;
+    margin: 0 7px;
+    color: #969BAB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all .3s;
+    transform: translateY(-50%) translateX(-87%);
+}
+
+.social-links ul li:nth-child(1) i {
+    transform: translateY(-50%) translateX(-93%);
+}
+
+.social-links ul li:nth-child(4) i {
+    transform: translateY(-50%) translateX(-83%);
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Footer Section styles end here */

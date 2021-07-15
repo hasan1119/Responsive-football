@@ -1,7 +1,10 @@
-/* Responsive Style Starts here  */
+/*===========================
+ Responsive Style Starts here  
+ ============================*/
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+
     .highlight-match {
         margin-bottom: 50px;
     }
@@ -22,6 +25,7 @@
         margin-bottom: 27px;
         max-width: 341px;
     }
+
 }
 
 
@@ -87,7 +91,6 @@
         padding-top: 20px;
     }
 
-
     .nav-menu ul li {
         margin-right: 15px;
     }
@@ -99,7 +102,7 @@
 
     #top-section {
         padding-bottom: 0px;
-        min-height: 88vh;
+        min-height: auto;
     }
 
     #players,
@@ -108,11 +111,13 @@
     #feature-videos {
         padding: 50px 0;
     }
+
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+
     #top-section {
         padding-bottom: 15px;
         height: auto;
@@ -128,6 +133,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .navigation {
         display: flex;
         flex-direction: column;
@@ -138,7 +144,6 @@
         display: block;
         width: 180px;
         margin: 0;
-
     }
 
     .nav-menu ul {
@@ -153,7 +158,6 @@
         text-align: center;
         padding-left: 20px;
         margin-bottom: 5px;
-
     }
 
     .half-width {
@@ -182,7 +186,6 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
-
     }
 
     .player h2 {
@@ -192,7 +195,6 @@
     }
 
     .highlight-match h2 {
-
         font-size: 25px;
         line-height: 29px;
         margin-bottom: 20px;
@@ -210,7 +212,8 @@
     .inner-banner {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 63px 15px 0;
+        padding: 63px 0 0;
+        overflow: hidden;
     }
 
     .huge-title h1 {
@@ -227,6 +230,12 @@
         text-align: center;
     }
 
+    .logo1,
+    .logo {
+        max-width: 150px;
+        margin-bottom: 0;
+    }
+
     footer p {
         font-size: 15px;
     }
@@ -240,4 +249,6 @@
 
 }
 
-/* Responsive Style ends here  */
+/*===========================
+ Responsive Style Ends here  
+ ============================*/
